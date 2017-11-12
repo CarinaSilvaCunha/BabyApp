@@ -9,7 +9,7 @@
 
     </style>
 
-    <style name="topball">
+    <style name="top_ball">
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:layout_alignParentTop">true</item>
@@ -20,5 +20,63 @@
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:layout_alignParentBottom">true</item>
     </style>
+
+    <style name="congrats">
+        <item name="android:layout_below">@id/lil_ball_stop</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:fontFamily">@font/font_indie_flower</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="stitches_portrait">
+        <item name="android:layout_below">@id/congrats</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_marginRight">35dp</item>
+    </style>
+
+    <style name="its_an_app">
+        <item name="android:layout_below">@id/congrats</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/font_roboto_thin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <style name="scratches_portrait">
+        <item name="android:layout_below">@id/stitches_portrait</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="smart_phone">
+        <item name="android:layout_below">@id/stitches_portrait</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="android_left">
+        <item name="android:layout_below">@id/stitches_portrait</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">65dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <style name="android_right">
+        <item name="android:layout_below">@id/stitches_portrait</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginTop">65dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+
 
 </resources>

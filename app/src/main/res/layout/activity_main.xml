@@ -4,19 +4,65 @@
     android:background="@color/AppBackground">
 
     <ImageView
+        android:id="@+id/lil_ball_stop"
         android:contentDescription="@string/app_name"
         android:layout_width="match_parent"
-        android:src="@drawable/lilballstop_portrait"
-        style="@style/topball"/>
+        android:src="@drawable/lil_ball_stop_portrait"
+        style="@style/top_ball"/>
 
-
+    <TextView
+        android:id="@+id/congrats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/congrats"
+        style="@style/congrats"/>
 
     <ImageView
-        android:contentDescription="@string/ballsimage"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/stitches_portrait"
         android:layout_width="match_parent"
-        android:src="@drawable/lilballsbottom_portrait"
-        style="@style/bottomball"
-        />
+        android:src="@drawable/stitches_portrait"
+        style="@style/stitches_portrait"/>
+
+    <TextView
+        android:id="@+id/its_an_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/its_an_app"
+        style="@style/its_an_app"/>
+
+    <ImageView
+        android:id="@+id/scratches_portrait"
+        android:contentDescription="@string/app_name"
+        android:layout_width="match_parent"
+        android:src="@drawable/scratches_portrait"
+        style="@style/scratches_portrait"/>
+
+    <ImageView
+        android:id="@+id/smart_phone"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/smart_phone"
+        style="@style/smart_phone"/>
+
+    <ImageView
+        android:id="@+id/android_left"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/android_left"
+        style="@style/android_left"/>
+
+    <ImageView
+        android:id="@+id/android_right"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/android_right"
+        style="@style/android_right"/>
+
+    <ImageView
+        android:id="@+id/lilballsbottom"
+        android:contentDescription="@string/balls_image"
+        android:layout_width="match_parent"
+        android:src="@drawable/lil_balls_bottom_portrait"
+        style="@style/bottomball"/>
 
 
 </RelativeLayout>
