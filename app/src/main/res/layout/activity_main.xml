@@ -64,5 +64,4 @@
         android:src="@drawable/lil_balls_bottom_portrait"
         style="@style/bottomball"/>
 
-
 </RelativeLayout>
