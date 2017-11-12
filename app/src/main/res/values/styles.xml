@@ -96,12 +96,12 @@
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">45sp</item>
+        <item name="android:textSize">48sp</item>
         <item name="android:fontFamily">@font/font_indie_flower</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/Black</item>
         <item name="android:layout_marginTop">25dp</item>
-        <item name="android:layout_marginRight">65dp</item>
+        <item name="android:layout_marginRight">78dp</item>
     </style>
 
     <style name="stitches_portrait_land">
@@ -110,7 +110,7 @@
         <item name="android:layout_height">100dp</item>
         <item name="android:layout_width">265dp</item>
         <item name="android:layout_marginTop">15dp</item>
-        <item name="android:layout_marginRight">70dp</item>
+        <item name="android:layout_marginRight">95dp</item>
     </style>
 
     <style name="its_an_app_land">
@@ -123,7 +123,7 @@
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/Black</item>
         <item name="android:layout_marginTop">40dp</item>
-        <item name="android:layout_marginRight">88dp</item>
+        <item name="android:layout_marginRight">113dp</item>
     </style>
 
     <style name="scratches_portrait_land">
@@ -140,9 +140,9 @@
     <style name="smart_phone_land">
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:layout_alignLeft">@id/lil_balls_top_land</item>
-        <item name="android:layout_marginLeft">80dp</item>
-        <item name="android:layout_height">160dp</item>
-        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_marginLeft">75dp</item>
         <item name="android:layout_marginTop">80dp</item>
     </style>
 
@@ -150,24 +150,24 @@
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_width">60dp</item>
         <item name="android:layout_height">60dp</item>
-        <item name="android:layout_marginLeft">270dp</item>
-        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginLeft">295dp</item>
+        <item name="android:layout_marginBottom">35dp</item>
     </style>
 
     <style name="android_middle_land">
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_width">60dp</item>
         <item name="android:layout_height">60dp</item>
-        <item name="android:layout_marginLeft">360dp</item>
-        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginLeft">385dp</item>
+        <item name="android:layout_marginBottom">35dp</item>
     </style>
 
     <style name="android_right_land">
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_width">60dp</item>
         <item name="android:layout_height">60dp</item>
-        <item name="android:layout_marginLeft">450dp</item>
-        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginLeft">475dp</item>
+        <item name="android:layout_marginBottom">35dp</item>
     </style>
 
     <style name="bottom_ball_land">
