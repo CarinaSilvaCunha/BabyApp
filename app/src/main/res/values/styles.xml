@@ -6,8 +6,9 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-
     </style>
+
+    <!-- Portrait theme. -->
 
     <style name="top_ball">
         <item name="android:layout_marginTop">10dp</item>
@@ -15,14 +16,10 @@
         <item name="android:layout_alignParentTop">true</item>
     </style>
 
-    <style name="bottomball">
-        <item name="android:layout_height">50dp</item>
-        <item name="android:layout_marginBottom">10dp</item>
-        <item name="android:layout_alignParentBottom">true</item>
-    </style>
+
 
     <style name="congrats">
-        <item name="android:layout_below">@id/lil_ball_stop</item>
+        <item name="android:layout_below">@id/lil_balls_top</item>
         <item name="android:textSize">50sp</item>
         <item name="android:fontFamily">@font/font_indie_flower</item>
         <item name="android:textAlignment">center</item>
@@ -75,6 +72,112 @@
         <item name="android:layout_height">70dp</item>
         <item name="android:layout_marginTop">65dp</item>
         <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+    <style name="bottomball">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <!-- Landscape theme. -->
+
+    <style name="top_ball_land">
+        <item name="android:rotation">-90</item>
+        <item name="android:scaleY">7</item>
+        <item name="android:scaleX">7</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+     </style>
+
+    <style name="congrats_land">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:fontFamily">@font/font_indie_flower</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginRight">65dp</item>
+    </style>
+
+    <style name="stitches_portrait_land">
+        <item name="android:layout_below">@id/congrats</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">265dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginRight">70dp</item>
+    </style>
+
+    <style name="its_an_app_land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/congrats</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">@font/font_roboto_thin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginRight">88dp</item>
+    </style>
+
+    <style name="scratches_portrait_land">
+        <item name="android:rotation">-90</item>
+        <item name="android:scaleY">2.5</item>
+        <item name="android:scaleX">2.5</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignLeft">@id/lil_balls_top_land</item>
+        <item name="android:layout_marginLeft">90dp</item>
+    </style>
+
+    <style name="smart_phone_land">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignLeft">@id/lil_balls_top_land</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_marginTop">80dp</item>
+    </style>
+
+    <style name="android_left_land">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">270dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+    </style>
+
+    <style name="android_middle_land">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">360dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+    </style>
+
+    <style name="android_right_land">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginLeft">450dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+    </style>
+
+    <style name="bottom_ball_land">
+        <item name="android:rotation">-90</item>
+        <item name="android:scaleY">7</item>
+        <item name="android:scaleX">7</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">10dp</item>
     </style>
 
 

@@ -1,67 +1,66 @@
+<!-- Landscape theme. -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/AppBackground">
 
     <ImageView
-        android:id="@+id/lil_balls_top"
+        android:id="@+id/lil_balls_top_land"
         android:contentDescription="@string/app_name"
-        android:layout_width="match_parent"
         android:src="@drawable/lil_ball_stop_portrait"
-        style="@style/top_ball"/>
+        style="@style/top_ball_land"/>
 
     <TextView
         android:id="@+id/congrats"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/congrats"
-        style="@style/congrats"/>
+        style="@style/congrats_land"/>
 
     <ImageView
         android:contentDescription="@string/app_name"
-        android:id="@+id/stitches_portrait"
-        android:layout_width="match_parent"
+        android:id="@+id/stitches_portrait_land"
         android:src="@drawable/stitches_portrait"
-        style="@style/stitches_portrait"/>
+        style="@style/stitches_portrait_land"/>
 
     <TextView
-        android:id="@+id/its_an_app"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/its_an_app_land"
         android:text="@string/its_an_app"
-        style="@style/its_an_app"/>
+        style="@style/its_an_app_land"/>
 
     <ImageView
-        android:id="@+id/scratches_portrait"
-        android:contentDescription="@string/app_name"
-        android:layout_width="match_parent"
-        android:src="@drawable/scratches_portrait"
-        style="@style/scratches_portrait"/>
+         android:id="@+id/scratches_portrait_land"
+         android:contentDescription="@string/app_name"
+         android:src="@drawable/scratches_portrait"
+         style="@style/scratches_portrait_land"/>
 
     <ImageView
         android:id="@+id/smart_phone"
-        android:layout_width="match_parent"
         android:contentDescription="@string/app_name"
         android:src="@drawable/smart_phone"
-        style="@style/smart_phone"/>
+        style="@style/smart_phone_land"/>
 
     <ImageView
         android:id="@+id/android_left"
         android:contentDescription="@string/app_name"
         android:src="@drawable/android_left"
-        style="@style/android_left"/>
+        style="@style/android_left_land"/>
 
     <ImageView
+        android:id="@+id/android_middle"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/android_middle"
+        style="@style/android_middle_land"/>
+
+   <ImageView
         android:id="@+id/android_right"
         android:contentDescription="@string/app_name"
         android:src="@drawable/android_right"
-        style="@style/android_right"/>
+        style="@style/android_right_land"/>
 
     <ImageView
-        android:id="@+id/lil_balls_bottom"
+        android:id="@+id/lil_balls_bottom_land"
         android:contentDescription="@string/balls_image"
-        android:layout_width="match_parent"
         android:src="@drawable/lil_balls_bottom_portrait"
-        style="@style/bottomball"/>
+        style="@style/bottom_ball_land"/>
 
 </RelativeLayout>
